@@ -2,7 +2,7 @@ import speech_recognition as sr
 import pyttsx3
 import openai
 
-openai.api_key = "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"
+openai.api_key = "your api token"
 r = sr.Recognizer()
 
 def listen():
